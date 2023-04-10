@@ -12,7 +12,7 @@ int main()
 int hcf(int a,int b)
 {
     int c=a<b?a:b;
-    for(c;c<=a*b;c--)
+    for(c;c>0;c--)
     {
       if(a%c==0&&b%c==0)
       break;
