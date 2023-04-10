@@ -14,7 +14,7 @@ int hcf(int a,int b)
     int c=a<b?a:b;
     for(c;c>0;c--)
     {
-      if(a%c==0&&b%c==0)
+      if(c%a==0&&c%b==0)
       break;
     }
     return c;
